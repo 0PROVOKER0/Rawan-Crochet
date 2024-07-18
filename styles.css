@@ -39,10 +39,6 @@ nav ul li a {
     color: #023D5D;
 }
 
-li:hover{
-    border-bottom: 1px solid #023D5D;
-}
-
 .home, .products, .about, .contact, .blog {
     padding: 20px 0;
     background-color:   #ffffff;
@@ -52,7 +48,7 @@ li:hover{
 .product-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;/*Jedes Element hat Links und rechts den selben Abstand*/
 }
 
 .product-item {
